@@ -7,8 +7,8 @@ class Directory extends React.Component {
     sections: [
       {
         title: "Hoodies",
-        // imageUrl: "https://static3.businessinsider.com/image/5be1e668e4218a374b51b6a0-534-534/fitness-apparel-startup-gymshark-was-started-by-a-19-year-old-and-is-now-one-of-the-fastest-growing-companies-in-the-world--heres-what-the-clothes-are-actually-like.jpg",
-        imageUrl:"https://i.pinimg.com/originals/02/a3/4b/02a34b1230b8ed687d46f21363d36c5c.jpg",
+        imageUrl: "https://static3.businessinsider.com/image/5be1e668e4218a374b51b6a0-534-534/fitness-apparel-startup-gymshark-was-started-by-a-19-year-old-and-is-now-one-of-the-fastest-growing-companies-in-the-world--heres-what-the-clothes-are-actually-like.jpg",
+        // imageUrl:"https://i.pinimg.com/originals/02/a3/4b/02a34b1230b8ed687d46f21363d36c5c.jpg",
         id: 1,
         linkUrl: "hoodies",
         size: "long"
