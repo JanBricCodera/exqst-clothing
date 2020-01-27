@@ -24,9 +24,14 @@
     }
   }
 
+  &.large {
+    height: 380px;
+    width:40%;
+  }
   &.long {
     height: 380px;
   }
+
 
   &:first-child {
     margin-right: 7.5px;
