@@ -1,8 +1,9 @@
-#(To be updated)
+# (To be updated)
 # A full-fledged online clothing store with a stripe payment processor built primarily using ReactJS
 
 
 ![alt text](https://i.ibb.co/bJ1cT5s/Capture.png "catalog page")
+
 Note: images used are not mine
 
 
