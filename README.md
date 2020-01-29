@@ -6,7 +6,7 @@
 
 ## Authentication Page
 <img src="https://imgbbb.com/images/2020/01/29/2.jpg" alt="alt text" border="1">
-Note: images used are not mine
+Note: sample images portrayed are not mine
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
