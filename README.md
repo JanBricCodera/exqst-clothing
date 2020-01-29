@@ -1,4 +1,4 @@
-# (Description to be updated)
+# (To be updated)
 ## A full-fledged online clothing store built mainly with React w/ stripe payment processor 
 
 ## Landing Page
