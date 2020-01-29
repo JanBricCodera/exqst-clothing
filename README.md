@@ -2,7 +2,7 @@
 ## A full-fledged online clothing store with a stripe payment processor built primarily using ReactJS
 
 
-<img src="https://i.ibb.co/bJ1cT5s/Capture.png" alt="alt text" width="700" height="400" border="1">
+<img src="https://i.ibb.co/bJ1cT5s/Capture.png" alt="alt text" border="1">
 
 Note: images used are not mine
 
