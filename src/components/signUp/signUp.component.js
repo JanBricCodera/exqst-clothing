@@ -5,8 +5,10 @@ import CustomButtom from "../../components/customButton/customButton.component";
 
 class SignUp extends React.Component {
   state = {
+    username: "",
     email: "",
-    password: " "
+    password: "",
+    confirmPassword: ""
   };
 
   handleSubmit = event => {
@@ -28,7 +30,7 @@ class SignUp extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name="username"
-            value={this.state.email}
+            value={this.state.username}
             type="text"
             handleChange={this.handleInputChange}
             label="username"
@@ -42,6 +44,7 @@ class SignUp extends React.Component {
             label="email"
             required
           />
+
           <FormInput
             name="password"
             value={this.state.password}
@@ -51,8 +54,8 @@ class SignUp extends React.Component {
             required
           />
           <FormInput
-            name="password"
-            value={this.state.password}
+            name="confirmPassword"
+            value={this.state.confirmPassword}
             type="password"
             handleChange={this.handleInputChange}
             label="confirm password"
