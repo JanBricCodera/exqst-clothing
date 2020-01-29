@@ -1,5 +1,5 @@
 # (To be updated)
-## A full-fledged online clothing store with a stripe payment processor built primarily using ReactJS
+## A full-fledged online clothing store built mainly with React w/ stripe payment processor 
 
 ## Landing Page
 <img src="https://imgbbb.com/images/2020/01/29/1.png" alt="alt text" border="1">
