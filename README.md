@@ -1,9 +1,10 @@
 # (To be updated)
 ## A full-fledged online clothing store with a stripe payment processor built primarily using ReactJS
 
-
+## Landing Page
 <img src="https://imgbbb.com/images/2020/01/29/1.md.png" alt="alt text" border="1">
 
+## Authentication Page
 <img src="https://imgbbb.com/images/2020/01/29/2.md.jpg" alt="alt text" border="1">
 Note: images used are not mine
 
