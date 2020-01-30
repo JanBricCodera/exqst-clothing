@@ -1,4 +1,11 @@
 .signin-signup-combo {
   display: flex;
   justify-content: space-evenly;
+  // width: 1000px;
+}
+
+@media (max-width: 870px) {
+  .signin-signup-combo {
+    flex-flow: column;
+  }
 }
