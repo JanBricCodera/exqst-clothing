@@ -36,7 +36,7 @@ class SignUp extends React.Component {
         confirmPassword: ""
       });
     } catch (error) {
-      console.log("Sign up handleSubmit error", error);
+      console.log("[Sign up component] handleSubmit method e", error);
     }
   };
 
