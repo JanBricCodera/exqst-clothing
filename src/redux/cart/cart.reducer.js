@@ -1,14 +1,15 @@
+import CartActionTypes from "./cart.types";
+
 const INITIAL_STATE = {
-  currentUser: null //this will contain the id,displayName, email etc.,
+  cartItems: []
 };
 
-const userReducer = (state = INITIAL_STATE, action) => {
-  console.log(JSON.stringify(action));
+const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case "SET_CURRENT_USER":
+    case CartActionTypes.ADD_ITEM:
       return {
         ...state,
-        currentUser: action.payload
+        cartItems: [...state.cartItems, action.payload]
       };
 
     default:
@@ -16,4 +17,4 @@ const userReducer = (state = INITIAL_STATE, action) => {
   }
 };
 
-export default userReducer;
+export default cartReducer;
