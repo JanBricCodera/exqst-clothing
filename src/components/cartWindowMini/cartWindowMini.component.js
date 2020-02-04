@@ -3,6 +3,7 @@ import "./cartWindowMini.styles.scss";
 import CustomButton from "../customButton/customButton.component";
 import ItemsInCart from "../itemsInCart/itemsInCart";
 import { connect } from "react-redux";
+import { selectCartItems } from "../../redux/cart/cart.selectors";
 
 const cartWindowMini = props =>
   props.show ? (
@@ -17,7 +18,7 @@ const cartWindowMini = props =>
   ) : null;
 
 const mapStateToProps = state => ({
-  cartItems: state.cart.cartItems
+  cartItems: selectCartItems(state) //previously raw state.cart.cartItems
 });
 
 export default connect(mapStateToProps)(cartWindowMini);
