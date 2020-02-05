@@ -10,6 +10,7 @@ import { connect } from "react-redux";
 import SignInAndSignUpPage from "./pages/signInSignUpCombo/signInSignUpCombo.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.util";
 import { setCurrentUser } from "./redux/user/user.actions";
+import CheckoutPage from "./pages/checkout/checkout.component";
 
 const HoodiesPage = () => (
   <div>
@@ -56,6 +57,7 @@ class App extends React.Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/hoodies" component={HoodiesPage} />
           <Route path="/shop" component={ShopPage} />
+          <Route exact path="/checkout" component={CheckoutPage} />
           <Route
             exact
             path="/signin"
