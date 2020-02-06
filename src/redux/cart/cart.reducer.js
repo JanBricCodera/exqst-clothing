@@ -1,5 +1,5 @@
 import CartActionTypes from "./cart.types";
-import { addItemToCart } from "./cart.utils";
+import { addItemToCart, removeItemToCart } from "./cart.utils";
 
 const INITIAL_STATE = {
   cartItems: []
@@ -12,6 +12,11 @@ const cartReducer = (state = INITIAL_STATE, action) => {
         ...state,
         // cartItems: [...state.cartItems, action.payload] //original but with a disadvantage. if user orders the same product more than once, it is not organized into one order with quantity increment
         cartItems: addItemToCart(state.cartItems, action.payload)
+      };
+    case CartActionTypes.REMOVE_ITEM:
+      return {
+        ...state,
+        cartItems: removeItemToCart(state.cartItems, action.payload)
       };
 
     case CartActionTypes.CLEAR_ITEM_FROM_CART:
