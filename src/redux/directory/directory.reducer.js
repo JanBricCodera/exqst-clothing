@@ -7,7 +7,7 @@ const INITIAL_STATE = {
       // imageUrl: "https://static3.businessinsider.com/image/5be1e668e4218a374b51b6a0-534-534/fitness-apparel-startup-gymshark-was-started-by-a-19-year-old-and-is-now-one-of-the-fastest-growing-companies-in-the-world--heres-what-the-clothes-are-actually-like.jpg",
       // imageUrl:"https://i.pinimg.com/originals/02/a3/4b/02a34b1230b8ed687d46f21363d36c5c.jpg",
       id: 1,
-      linkUrl: "hoodies",
+      linkUrl: "shop/hoodies",
       size: "long"
     },
     {
@@ -17,7 +17,7 @@ const INITIAL_STATE = {
       // imageUrl: "https://i.pinimg.com/originals/7c/2d/b7/7c2db70ac6243d970869de19fc7b758e.jpg",
       id: 2,
       size: "large",
-      linkUrl: "jackets"
+      linkUrl: "shop/jackets"
     },
     // {
     //   title: "sneakers",
@@ -32,7 +32,7 @@ const INITIAL_STATE = {
         "https://marketingweek.imgix.net/content/uploads/2018/10/11153228/Gymshark-Heroines.jpg",
       size: "large",
       id: 4,
-      linkUrl: "womens"
+      linkUrl: "shop/womens"
     },
     {
       title: "mens",
@@ -40,7 +40,7 @@ const INITIAL_STATE = {
       imageUrl: "https://blogcms.gymshark.com/uploads/1526901852-3.jpg",
       size: "large",
       id: 5,
-      linkUrl: "mens"
+      linkUrl: "shop/mens"
     }
   ]
 };

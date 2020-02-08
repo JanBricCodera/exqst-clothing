@@ -12,17 +12,7 @@ import { auth, createUserProfileDocument } from "./firebase/firebase.util";
 import { setCurrentUser } from "./redux/user/user.actions";
 import CheckoutPage from "./pages/checkout/checkout.component";
 
-const HoodiesPage = () => (
-  <div>
-    <h1>Hoodies page</h1>
-  </div>
-);
-
 class App extends React.Component {
-  // state = {
-  //   currentUser: null
-  // };
-
   unsubscribeFromAuth = null;
 
   componentDidMount() {
@@ -55,7 +45,6 @@ class App extends React.Component {
         <SubHeader />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/hoodies" component={HoodiesPage} />
           <Route path="/shop" component={ShopPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route
